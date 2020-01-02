@@ -1,0 +1,32 @@
+.navigation {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.posts {
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#home_nav {
+  margin-right: 60px;
+}
+
+#name:hover {
+  color:black;
+}
+
+a {
+  color: black;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  background-color: #B0BDEA ;
+}
