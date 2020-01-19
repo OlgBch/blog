@@ -9,16 +9,18 @@
 </head>
 
 <body>
-  <img src="logo.png" class="logo">
-  <a id="name">Oleg Bychenkov</a>
+  <div>
+    <img src="logo.png" class="logo">
+    <a id="name">Oleg Bychenkov</a>
+  </div>  
   <div class="navigation">
     <a href="index.html" id="home_nav">Home</a>
     <a href="about.html">About</a>
   </div>
   <div class="posts">
-    
-      <a href="/first.html">First</a>
-    
+    <% posts.forEach(post => { %>
+      <a href="/<%= post.file %>.html"><%= post.title %></a>
+    <% }) %>
   </div>
 </body>
 

@@ -9,16 +9,16 @@
 </head>
 
 <body>
-  <img src="logo.png" class="logo">
+  <img src="logo.png" class="logo" width="50">
   <a id="name">Oleg Bychenkov</a>
   <div class="navigation">
     <a href="index.html" id="home_nav">Home</a>
     <a href="about.html">About</a>
   </div>
-  <div class="posts">
-    
-      <a href="/first.html">First</a>
-    
+  <div class="post">
+    <h1><%= post.title %></h1>
+    <h3><%= post.date %></h3>
+    <%- post.content %>
   </div>
 </body>
 

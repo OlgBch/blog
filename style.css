@@ -1,12 +1,23 @@
 .navigation {
   text-align: center;
-  text-decoration: underline;
 }
 
 .posts {
   margin-top: 50px;
   text-align: center;
   text-decoration: underline;
+}
+
+.post {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.logo {
+  width: 50px;
+  height: 40px;
+  top: 10px;
+  position:relative;
 }
 
 #home_nav {
@@ -17,9 +28,13 @@
   color:black;
 }
 
+#name: {
+  position:fixed;
+}
+
 a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -28,5 +43,7 @@ a:hover {
 }
 
 body {
-  background-color: #B0BDEA ;
+  background-color: #B0BDEA;
+  margin-top: 0px;
 }
+
