@@ -1,6 +1,5 @@
 ---
-title: First
-date: January 2 2020
+title: Living in the Present
+date: January 19 2020
 ---
 
-This is my first post
