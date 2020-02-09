@@ -4,8 +4,7 @@
 
 .posts {
   margin-top: 100px;
-  margin-left: 30%;
-  text-decoration: underline;
+  text-align: center;
 }
 
 .post {
@@ -29,22 +28,37 @@
   color:black;
 }
 
-#name: {
-  position:fixed;
+#date {
+  font-size: 15px;
+}
+
+#date:hover {
+  color:black;
 }
 
 a {
-  color: black;
+  color: #0b1128;
   font-size: 20px;
-  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-size: 18px;
 }
 
 a:hover {
   color: gray;
 }
 
+a:active {
+  color: #0b1128
+}
+
 body {
-  background-color: #B0BDEA;
+  background-color: #d7ddf4;
   margin-top: 0px;
+}
+
+* {
+  font-family: 'Roboto Slab', serif;
 }
 
